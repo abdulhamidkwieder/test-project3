@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Signika');
+
+body {
+
+    background-image: url(../css/vienna2.jpg); 
+	background-size: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+
+img {
+
+    margin-top: 3px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    width: 4%;
+
+}
+
+
+h3 {
+	color:  #232F3E;
+    margin-top: 25px;
+    vertical-align: top;
+	font-family: 'Signika', sans-serif;
+
+}
+
+h3 , img {
+
+	display: inline-block;
+}
+
+
+#header {
+
+    padding-top: 1px;
+    padding-bottom: 3px;
+    background-color: ivory;
+	
+}
+h1, #content {
+
+
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'Signika', sans-serif;
+	font-size: 2.6em;
+
+}
+
+#content {
+
+	font-size: 1.3em;
+	padding-bottom: 10px;
+
+}
+
+p,input {
+
+	display: block;
+
+}
+
+p {
+
+	color:red;
+    margin-bottom: 0rem !important;
+}
+
+
+
+#box1 {
+    text-align: center;
+    width: 50%; 
+
+}
+
+#box2 {
+    display: flex;
+    justify-content: center;
+}
+
+
+#box3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+#register_form,#signin_form { 
+
+	display: none;
+
+}
+
+#signin_form {
+
+
+    margin-top: 150px;
+    padding: 15px;
+    border:1px solid #222;
+    border-radius: 4px;
+    height: 420px;
+    background: ivory;
+    box-shadow: 1px 1px 10px 2px;
+
+}
+
+
+#card {
+
+    margin-top: 200px;
+
+}
+
+
+ #signin_form input {
+
+    margin-top: 11px;
+    padding-left: 25px;
+	height: 43px;
+    width: 317px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+#email {
+    background-image: url(https://use.fontawesome.com/releases/v5.0.8/svgs/regular/envelope.svg);
+    background-repeat: no-repeat;
+    background-size: 5.4%;
+    background-position: 4px 11px;
+}
+
+
+#password {
+    background-image: url(https://use.fontawesome.com/releases/v5.0.8/svgs/solid/key.svg);
+    background-repeat: no-repeat;
+    background-size: 5.4%;
+    background-position: 4px 11px;
+}
+
+
+.signin_botton{
+    background-color:#117084;
+    width: 100%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem !important;
+}
+
+
+#register_form input {
+
+    margin-top: 11px;    
+    padding-left: 5px;
+	height: 43px;
+    width: 317px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+
+#register_form {
+
+	margin-top: 150px;
+    padding: 15px;
+    border:1px solid #222;
+    border-radius: 4px;
+    background: ivory;
+    box-shadow: 1px 1px 10px 2px;
+    height: 420px;
+}
+
+
+.register_botton {
+    background-color: #6EAC5A;
+    color: white;
+    width: 100% !important;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2rem !important;
+
+}
+
+
+
+
+#register_form input::placeholder, #signin_form input::placeholder {
+
+	color: black;
+
+}
+
+
+#signin_botton, #register_botton {
+    margin-right: 5px;
+    height: 80px;
+    width: 145px;
+    border-radius: 6px;
+    border: 1px;
+    font-size: 1.5em;
+    display: inline-block;
+    background-color: ivory;
+	font-family: 'Lobster', cursive;
+    box-shadow: 1px 0px 3px 1px;
+    outline: none;
+    cursor: pointer;
+	
+}
+
+
+
+
+@media screen and  (max-width: 992px) { 
+
+    #box1{width: 100%;}
+
+}
+
+
+@media screen and  (max-width: 992px) { 
+
+   #box2, #box3{width: 100%;}
+ 
+
+}
+
+
+
+@media (max-width: 480px) { 
+
+    #card,#register_form,#signin_form{
+
+        margin-top: 100px;
+
+    }
+
+}
+
+@media screen and  (max-width: 480px) {
+
+    #box1 {
+
+      display: flex;
+      justify-content: end;
+      width: 100%;
+
+  }
+    #box2, #box3{margin-left: 10px;}
+    
+}
+
